@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Classroom Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Dashboard</a></li>
+                <li><a href="students.html">Students</a></li>
+                <li><a href="teachers.html">Teachers</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+                <li><a href="notifications.html">Notifications</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="analytics">
+            <h1>📈 Student Performance Analytics</h1>
+            <div class="analytics-charts">
+                <div class="chart">
+                    <h2>Grades Distribution</h2>
+                    <canvas id="gradesChart"></canvas>
+                </div>
+                <div class="chart">
+                    <h2>Attendance</h2>
+                    <canvas id="attendanceChart"></canvas>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Classroom Manager. All rights reserved.</p>
+    </footer>
+</body>
+</html>
